@@ -9,6 +9,8 @@ import java.util.Arrays;
  * ...
  * n-2 和 n-1取最小值，和n-2交换
  * 不用遍历到n-1和n-1比较
+ *
+ * @author YKrystal
  */
 public class Code02_SelectionSort {
     public static void swap(int[] arr, int i, int j) {

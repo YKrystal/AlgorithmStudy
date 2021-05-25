@@ -2,6 +2,8 @@ package class01;
 
 /**
  * 打印一个整数的32位二进制信息
+ *
+ * @author YKrystal
  */
 public class Code01_PrintBinary {
     public static void printBinary(int num) {

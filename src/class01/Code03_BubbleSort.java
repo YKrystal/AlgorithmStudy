@@ -9,6 +9,8 @@ import java.util.Arrays;
  * ...
  * n-1 ：在0 ~ 1 之间，比较
  * 0 和 0 之间不做了
+ *
+ * @author YKrystal
  */
 public class Code03_BubbleSort {
     public static void swap(int[] arr, int i, int j) {
