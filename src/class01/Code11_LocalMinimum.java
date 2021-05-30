@@ -60,8 +60,10 @@ public class Code11_LocalMinimum {
         }
 
         // 至少有两个数
+        // 是有效位置，看左边是不是确实比answerIndex的数大，不是有效位置，左边没数，就认为左边的大
         boolean left = answerIndex - 1 >= 0 ? arr[answerIndex] < arr[answerIndex - 1] : true;
 
+        //同理
         boolean right = answerIndex + 1 <= arr.length - 1 ? arr[answerIndex] < arr[answerIndex + 1] : true;
 
         return left && right;
